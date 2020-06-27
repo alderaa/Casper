@@ -3077,3 +3077,50 @@ Usage (In Ghost editor):
         color: color(var(--green) l(+5%) s(-5%));
     }
 }
+
+/** Custom **/
+
+.site-header-background:before {
+    bottom: 0;
+    background: none!important;
+}
+.site-home-header .site-header-background {
+    min-height: 42vh;
+}
+.site-home-header .site-title, .site-home-header .site-description {	
+    color: rgba(0,0,0,0.87);
+    background: rgba(255,255,255, 0.7);
+    padding: 7px;
+}
+.site-home-header .site-description{
+	font-weight: 600;
+    border-radius: 10px;
+}
+.site-title{
+	border-radius: 50%;
+}
+.site-logo {
+    max-height: 300px;
+}
+.site-home-header {
+    margin-bottom: 15px;
+}
+div.outer.site-nav-main {
+    background: #F5CAB3;
+}
+.site-nav-logo, .nav li a{
+    color: rgba(0,0,0,0.87);
+}
+.site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after, .site-nav-main .site-nav-left-wrapper:after {
+	background: none;
+}
+.rss-button svg, .social-link svg {
+    fill: rgba(0,0,0,0.87);
+}
+.site-nav-logo img {
+    height: 66px;
+    margin-top: -21px;
+}
+.nav-post-title {
+	color: rgba(0,0,0,0.87);
+}
